@@ -1,10 +1,7 @@
 # SriBatch.js
 
-Sure! Here's an example of a README file for the `SriBatch.js` library:
-
-# SriBatch.js
-
-SriBatch.js is a JavaScript library that provides the ability to perform batch operations where clients can bundle multiple requests into a single call. This reduces the number of API calls required, optimizing network usage, and improving overall performance.
+### SriBatch.js is a JavaScript library that provides the ability to perform batch operations where clients can bundle multiple requests into a single call.
+### This reduces the number of API calls required, optimizing network usage, and improving overall performance.
 
 ## Features
 
