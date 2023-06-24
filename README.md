@@ -74,6 +74,27 @@ batch.execute((error, responses) => {
 
 Make sure to replace the placeholder URLs (`'/api/users'`, `'/api/posts'`) with the actual API endpoints you want to call. Adjust the HTTP methods and request data accordingly based on your API's requirements.
 
+## Full sample code
+```javascript
+// Create an instance of SriBatch
+const batch = new SriBatch();
+
+// Add requests to the batch
+batch.addRequest('GET', '/api/users');
+batch.addRequest('POST', '/api/posts', { title: 'Hello', body: 'Batch request' });
+batch.addRequest('PUT', '/api/users/1', { name: 'John Doe' });
+
+// Execute the batch request
+batch.execute((error, responses) => {
+  if (error) {
+    console.error('Batch request failed:', error);
+  } else {
+    console.log('Batch request successful:', responses);
+    // Process the individual response data here
+  }
+});
+```
+
 ## Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request on the GitHub repository.
