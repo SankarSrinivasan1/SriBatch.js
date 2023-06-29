@@ -1,3 +1,7 @@
+// SriBatch.js is a JavaScript library that provides the ability to perform batch operations where clients can bundle multiple requests into a single call.
+// This reduces the number of API calls required, optimizing network usage, and improving overall performance.
+// Contact Sankar Srinivasan petra.srini@gmail.com
+
 class SriBatch {
   constructor() {
     this.requests = [];
