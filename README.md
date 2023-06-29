@@ -96,13 +96,13 @@ batch.execute((error, responses) => {
 ```
 
 ## Contributing
-
 Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request on the GitHub repository.
 
 ## License
-
 SriBatch.js is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ## Credits
-
 Contact Sankar Srinivasan by email petra.srini@gmail.com 
+
+## Blog post
+https://sankarsrinivasan.stck.me/post/99800/SriBatch-js-Optimize-API-Performance-with-Batch-Operations
