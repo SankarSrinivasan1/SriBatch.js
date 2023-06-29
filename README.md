@@ -105,8 +105,4 @@ SriBatch.js is licensed under the MIT License. See the [LICENSE](LICENSE) file f
 
 ## Credits
 
-SriBatch.js was developed by [Your Name] and is based on the [SriBatch.js](https://www.example.com) library.
-
----
-
-Feel free to customize the README to provide additional information or guidelines specific to your library.
+Contact Sankar Srinivasan by email petra.srini@gmail.com 
